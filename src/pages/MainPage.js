@@ -26,7 +26,7 @@ class MainPageView extends Component{
           <Text>Press</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={changeName}>
-          <Text>changeName</Text>
+          <Text>changeUserName</Text>
         </TouchableOpacity>
         <Counter count={count} incrementFn={increment} decrementFn={decrement} />
       </View>

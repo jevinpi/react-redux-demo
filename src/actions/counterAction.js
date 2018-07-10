@@ -1,12 +1,13 @@
+import * as types from './../constants/counterTypes';
 
 export function decrement() {
 	return {
-		type: "DECREMENT"
+		type: types.DECREMENT
 	}
 }
 
 export function increment() {
 	return {
-		type: "INCREMENT"
+		type: types.INCREMENT
 	}
 }
